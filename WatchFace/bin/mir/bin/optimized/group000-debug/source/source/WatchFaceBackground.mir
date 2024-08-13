@@ -1,0 +1,179 @@
+[ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 1; ]
+using Toybox.System;
+[ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 2; ]
+import Toybox.Application;
+[ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 3; ]
+import Toybox.Graphics;
+[ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 4; ]
+import Toybox.Lang;
+[ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 7; ]
+class Background extends WatchUi.Drawable{
+    [ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 8; ]
+    function initialize() as Void {
+_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_8_24_14_2_start:
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 9 4 ]
+        [ "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_8_24_14_2_start" "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_8_24_14_2_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 13 4 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_8_24_14_2_stop:
+    }
+    [ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 16; ]
+    function draw(dc as Dc) as Void {
+_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_start:
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 17 4 ]
+        [ "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_start" "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_stop" ]
+        %pre_2.1 = local;
+        [ "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_start" "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_stop" ]
+        %pre_4.2 = local;
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 18 4 ]
+        %tmp.1 = 4;
+        lputv %pre_4.2 %tmp.1;
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 19 4 ]
+        %tmp.2 = 2;
+        lputv %pre_2.1 %tmp.2;
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 21 4 ]
+        %tmp.3 = lgetv %dc;
+        %tmp.4 = getv function %tmp.3 :setColor;
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :getApp;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = getv function %tmp.7 :getProperty;
+        %tmp.9 = "RingColor";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        %tmp.11 = as %tmp.10 Number;
+        %tmp.12 = self;
+        %tmp.13 = getv function %tmp.12 :getApp;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        %tmp.15 = getv function %tmp.14 :getProperty;
+        %tmp.16 = "RingColor";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        %tmp.18 = as %tmp.17 Number;
+        invoke %tmp.3 %tmp.4(%tmp.11, %tmp.18);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 25 4 ]
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = getv function %tmp.19 :clear;
+        invoke %tmp.19 %tmp.20();
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 26 4 ]
+        [ "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_start" "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_stop" ]
+        %w.3 = local;
+        %tmp.21 = getm $.Toybox.System;
+        %tmp.22 = getv function %tmp.21 :getDeviceSettings;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        %tmp.24 = getv %tmp.23 :screenWidth;
+        lputv %w.3 %tmp.24;
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 27 4 ]
+        [ "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_start" "_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_stop" ]
+        %h.4 = local;
+        %tmp.25 = getm $.Toybox.System;
+        %tmp.26 = getv function %tmp.25 :getDeviceSettings;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        %tmp.28 = getv %tmp.27 :screenHeight;
+        lputv %h.4 %tmp.28;
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 29 4 ]
+        %tmp.29 = lgetv %dc;
+        %tmp.30 = getv function %tmp.29 :setColor;
+        %tmp.31 = 0xaaaaaa;
+        %tmp.32 = 0xaaaaaa;
+        invoke %tmp.29 %tmp.30(%tmp.31, %tmp.32);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 30 4 ]
+        %tmp.33 = lgetv %dc;
+        %tmp.34 = getv function %tmp.33 :setPenWidth;
+        %tmp.35 = 20;
+        invoke %tmp.33 %tmp.34(%tmp.35);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 31 4 ]
+        %tmp.36 = lgetv %dc;
+        %tmp.37 = getv function %tmp.36 :drawCircle;
+        %tmp.39 = lgetv %w.3;
+        %tmp.41 = lgetv %pre_2.1;
+        %tmp.42 = div %tmp.39 %tmp.41;
+        %tmp.44 = lgetv %h.4;
+        %tmp.46 = lgetv %pre_2.1;
+        %tmp.47 = div %tmp.44 %tmp.46;
+        %tmp.49 = lgetv %w.3;
+        %tmp.51 = lgetv %pre_2.1;
+        %tmp.52 = div %tmp.49 %tmp.51;
+        invoke %tmp.36 %tmp.37(%tmp.42, %tmp.47, %tmp.52);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 33 4 ]
+        %tmp.53 = lgetv %dc;
+        %tmp.54 = getv function %tmp.53 :setColor;
+        %tmp.55 = 0xeeeeee;
+        %tmp.56 = 0xeeeeee;
+        invoke %tmp.53 %tmp.54(%tmp.55, %tmp.56);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 34 4 ]
+        %tmp.57 = lgetv %dc;
+        %tmp.58 = getv function %tmp.57 :setPenWidth;
+        %tmp.59 = 20;
+        invoke %tmp.57 %tmp.58(%tmp.59);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 35 4 ]
+        %tmp.60 = lgetv %dc;
+        %tmp.61 = getv function %tmp.60 :drawCircle;
+        %tmp.63 = lgetv %w.3;
+        %tmp.65 = lgetv %pre_2.1;
+        %tmp.66 = div %tmp.63 %tmp.65;
+        %tmp.68 = lgetv %h.4;
+        %tmp.70 = lgetv %pre_2.1;
+        %tmp.71 = div %tmp.68 %tmp.70;
+        %tmp.73 = lgetv %w.3;
+        %tmp.75 = lgetv %pre_4.2;
+        %tmp.76 = div %tmp.73 %tmp.75;
+        %tmp.77 = 40;
+        %tmp.78 = add %tmp.76 %tmp.77;
+        invoke %tmp.60 %tmp.61(%tmp.66, %tmp.71, %tmp.78);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 37 4 ]
+        %tmp.79 = lgetv %dc;
+        %tmp.80 = getv function %tmp.79 :setColor;
+        %tmp.81 = 0x000000;
+        %tmp.82 = as %tmp.81 Toybox.Graphics.ColorValue;
+        %tmp.83 = 0x000000;
+        %tmp.84 = as %tmp.83 Toybox.Graphics.ColorValue;
+        invoke %tmp.79 %tmp.80(%tmp.82, %tmp.84);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 41 4 ]
+        %tmp.85 = lgetv %dc;
+        %tmp.86 = getv function %tmp.85 :setPenWidth;
+        %tmp.87 = getm $.Toybox.System;
+        %tmp.88 = getv function %tmp.87 :getDeviceSettings;
+        %tmp.89 = invoke %tmp.87 %tmp.88();
+        %tmp.90 = getv %tmp.89 :screenWidth;
+        %tmp.92 = lgetv %pre_4.2;
+        %tmp.93 = div %tmp.90 %tmp.92;
+        invoke %tmp.85 %tmp.86(%tmp.93);
+[ "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc" 45 4 ]
+        %tmp.94 = lgetv %dc;
+        %tmp.95 = getv function %tmp.94 :fillCircle;
+        %tmp.97 = lgetv %w.3;
+        %tmp.99 = lgetv %pre_2.1;
+        %tmp.100 = div %tmp.97 %tmp.99;
+        %tmp.102 = lgetv %h.4;
+        %tmp.104 = lgetv %pre_2.1;
+        %tmp.105 = div %tmp.102 %tmp.104;
+        %tmp.107 = lgetv %w.3;
+        %tmp.109 = lgetv %pre_4.2;
+        %tmp.110 = div %tmp.107 %tmp.109;
+        %tmp.111 = 40;
+        %tmp.112 = add %tmp.110 %tmp.111;
+        invoke %tmp.94 %tmp.95(%tmp.100, %tmp.105, %tmp.112);
+_Users_gregoryfoo_dev_WatchFace_bin_optimized_group000_debug_source_source_WatchFaceBackground_mc_16_34_60_2_stop:
+    }
+}
+[ @file = "/Users/gregoryfoo/dev/WatchFace/bin/optimized/group000-debug/source/source/WatchFaceBackground.mc"; @line = 1; ]
+<init> {
+}

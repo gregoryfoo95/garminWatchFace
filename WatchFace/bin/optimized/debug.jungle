@@ -1,0 +1,4 @@
+project.manifest=../../manifest.xml
+fr265.sourcePath = group000-debug/source/**.mc
+fr265.resourcePath = ../../resources
+fr265.personality = ../../resources;"../../../../Library/Application Support/Garmin/ConnectIQ/Devices/fr265"

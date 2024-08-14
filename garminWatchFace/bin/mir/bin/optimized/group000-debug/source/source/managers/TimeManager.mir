@@ -1,0 +1,152 @@
+[ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 5; ]
+class TimeManager{
+    [ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 6; @position = 21; ]
+    private static
+    var timeFont;
+    [ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 7; @position = 14; ]
+    private
+    var watchFaceView;
+    [ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 9; ]
+    public
+    function initialize(timeFontResource as FontResource, watchFaceViewInstance as garminWatchFaceView) as Void {
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_12_4_15_2_start:
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 13 4 ]
+        %tmp.2 = lgetv %timeFontResource;
+        putv self :timeFont %tmp.2;
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 14 4 ]
+        %tmp.4 = lgetv %watchFaceViewInstance;
+        putv self :watchFaceView %tmp.4;
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_12_4_15_2_stop:
+    }
+    [ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 17; ]
+    private
+    function getTimeString() as String {
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_17_45_24_2_start:
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 18 4 ]
+        [ "_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_17_45_24_2_start" "_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_17_45_24_2_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = as %tmp.3 ClockTime;
+        lputv %clockTime.1 %tmp.4;
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 19 4 ]
+        [ "_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_17_45_24_2_start" "_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_17_45_24_2_stop" ]
+        %hour.2 = local;
+        %tmp.5 = lgetv %clockTime.1;
+        %tmp.6 = getv %tmp.5 :hour;
+        %tmp.7 = as %tmp.6 Number;
+        lputv %hour.2 %tmp.7;
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 20 4 ]
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_20_4_22_4_if_stmt:
+        %tmp.9 = lgetv %hour.2;
+        %tmp.10 = 12;
+        %tmp.11 = gt %tmp.9 %tmp.10;
+        bf %tmp.11 @_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_20_4_22_4_if_end;
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_20_4_22_4_if_true:
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_20_19_22_4_start:
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 21 6 ]
+        %tmp.12 = lgetv %hour.2;
+        %tmp.13 = 12;
+        %tmp.14 = sub %tmp.12 %tmp.13;
+        lputv %hour.2 %tmp.14;
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_20_19_22_4_stop:
+        goto @_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_20_4_22_4_if_end;
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_20_4_22_4_if_end:
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 23 4 ]
+        %tmp.15 = getm $.Toybox.Lang;
+        %tmp.16 = getv function %tmp.15 :format;
+        %tmp.17 = "$1$:$2$";
+        %tmp.18 = newa 2;
+        %tmp.20 = lgetv %hour.2;
+        %tmp.21 = dup %tmp.18;
+        %tmp.22 = aputv %tmp.21 0 %tmp.20;
+        %tmp.23 = lgetv %clockTime.1;
+        %tmp.24 = getv %tmp.23 :min;
+        %tmp.25 = getv function %tmp.24 :format;
+        %tmp.26 = "%02d";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        %tmp.28 = dup %tmp.22;
+        %tmp.29 = aputv %tmp.28 1 %tmp.27;
+        %tmp.30 = invoke %tmp.15 %tmp.16(%tmp.17, %tmp.29);
+        ret %tmp.30;
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_17_45_24_2_stop:
+    }
+    [ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 26; ]
+    public
+    function drawTime(dc as Toybox.Graphics.Dc) as Void {
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_26_61_38_2_start:
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 27 4 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getTimeString;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %dc %tmp.3;
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 28 4 ]
+        [ "_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_26_61_38_2_start" "_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_26_61_38_2_stop" ]
+        %view.1 = local;
+        %tmp.5 = getv ? :watchFaceView;
+        %tmp.6 = getv function %tmp.5 :getWatchView;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = getv function %tmp.7 :findDrawableById;
+        %tmp.9 = "TimeLabel";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        %tmp.11 = as %tmp.10 Text;
+        lputv %view.1 %tmp.11;
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 31 4 ]
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_31_4_37_4_if_stmt:
+        %tmp.13 = lgetv %view.1;
+        %tmp.14 = null;
+        %tmp.15 = ne %tmp.13 %tmp.14;
+        bf %tmp.15 @_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_31_4_37_4_if_false;
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_31_4_37_4_if_true:
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_31_22_35_4_start:
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 32 6 ]
+        %tmp.16 = lgetv %view.1;
+        %tmp.17 = as %tmp.16 { (!Null) };
+        %tmp.18 = getv function %tmp.17 :setText;
+        %tmp.20 = lgetv %dc;
+        invoke %tmp.17 %tmp.18(%tmp.20);
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 33 6 ]
+        %tmp.21 = lgetv %view.1;
+        %tmp.22 = as %tmp.21 { (!Null) };
+        %tmp.23 = getv function %tmp.22 :setBackgroundColor;
+        %tmp.24 = 0x0000ff;
+        %tmp.25 = as %tmp.24 Toybox.Graphics.ColorValue;
+        invoke %tmp.22 %tmp.23(%tmp.25);
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 34 6 ]
+        %tmp.26 = lgetv %view.1;
+        %tmp.27 = as %tmp.26 { (!Null) };
+        %tmp.28 = getv function %tmp.27 :setColor;
+        %tmp.29 = 0x00ff00;
+        %tmp.30 = as %tmp.29 Toybox.Graphics.ColorValue;
+        invoke %tmp.27 %tmp.28(%tmp.30);
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_31_22_35_4_stop:
+        goto @_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_31_4_37_4_if_end;
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_31_4_37_4_if_false:
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_35_11_37_4_start:
+[ "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" 36 6 ]
+        %tmp.31 = getm $.Toybox.System;
+        %tmp.32 = getv function %tmp.31 :println;
+        %tmp.33 = "Error: TimeLabel view not found!";
+        invoke %tmp.31 %tmp.32(%tmp.33);
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_35_11_37_4_stop:
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_31_4_37_4_if_end:
+_Users_gregoryfoo_dev_garminWatchFace_garminWatchFace_bin_optimized_group000_debug_source_source_managers_TimeManager_mc_26_61_38_2_stop:
+    }
+}
+[ @file = "/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc"; @line = 1; ]
+<init> {
+}

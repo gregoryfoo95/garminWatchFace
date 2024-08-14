@@ -6,18 +6,22 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
+        (:initialized) var StepsIcon as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
     module Fonts {
         (:initialized) var TimeFont as ResourceId;
+        (:initialized) var DataFont as ResourceId;
     } // Fonts
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_RED, :locX=>(416 * 0.5), :locY=>((416 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :locX=>(416 * 0.5), :locY=>((416 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :color=>Graphics.COLOR_RED, :locX=>(416 * (50 / 100.0)), :locY=>(416 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_XTINY});
+
+            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_HeartRateLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

@@ -4,47 +4,68 @@
     <pcToLineNum>
         <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="1" lineNum="22" parent="globals" pc="268435460" symbol="getApp"/>
         <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="1" lineNum="23" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="2" lineNum="8" parent="globals/garminWatchFaceView" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="2" lineNum="9" parent="globals/garminWatchFaceView" pc="268435481" symbol="&lt;init&gt;"/>
         <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/gen/006-B4257-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
         <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="4" lineNum="5" parent="globals/garminWatchFaceApp" pc="268435513" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="7" lineNum="21" parent="globals/garminWatchFaceView" pc="268435525" symbol="onLayout"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="7" lineNum="22" parent="globals/garminWatchFaceView" pc="268435527" symbol="onLayout"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="36" parent="globals/garminWatchFaceView" pc="268435561" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="38" parent="globals/garminWatchFaceView" pc="268435564" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="39" parent="globals/garminWatchFaceView" pc="268435576" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="40" parent="globals/garminWatchFaceView" pc="268435584" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="41" parent="globals/garminWatchFaceView" pc="268435592" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="43" parent="globals/garminWatchFaceView" pc="268435602" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="48" parent="globals/garminWatchFaceView" pc="268435652" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="50" parent="globals/garminWatchFaceView" pc="268435676" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="51" parent="globals/garminWatchFaceView" pc="268435682" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="52" parent="globals/garminWatchFaceView" pc="268435695" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="53" parent="globals/garminWatchFaceView" pc="268435709" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="8" lineNum="55" parent="globals/garminWatchFaceView" pc="268435727" symbol="drawTime"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="10" lineNum="15" parent="globals/garminWatchFaceView" pc="268435746" symbol="initialize"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="10" lineNum="16" parent="globals/garminWatchFaceView" pc="268435748" symbol="initialize"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="10" lineNum="17" parent="globals/garminWatchFaceView" pc="268435760" symbol="initialize"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="12" lineNum="31" parent="globals/garminWatchFaceView" pc="268435799" symbol="onUpdate"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="12" lineNum="32" parent="globals/garminWatchFaceView" pc="268435801" symbol="onUpdate"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="12" lineNum="33" parent="globals/garminWatchFaceView" pc="268435812" symbol="onUpdate"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="13" lineNum="11" parent="globals/garminWatchFaceApp" pc="268435833" symbol="onStart"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="14" lineNum="17" parent="globals/garminWatchFaceApp" pc="268435836" symbol="getInitialView"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="14" lineNum="18" parent="globals/garminWatchFaceApp" pc="268435838" symbol="getInitialView"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="15" lineNum="6" parent="globals/garminWatchFaceApp" pc="268435868" symbol="initialize"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="15" lineNum="7" parent="globals/garminWatchFaceApp" pc="268435870" symbol="initialize"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="16" lineNum="14" parent="globals/garminWatchFaceApp" pc="268435883" symbol="onStop"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/gen/006-B4257-00/source/Rez.mcgen" id="17" lineNum="17" parent="globals/Rez/Layouts" pc="268435886" symbol="WatchFace"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/gen/006-B4257-00/source/Rez.mcgen" id="17" lineNum="18" parent="globals/Rez/Layouts" pc="268435897" symbol="WatchFace"/>
-        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/gen/006-B4257-00/source/Rez.mcgen" id="17" lineNum="20" parent="globals/Rez/Layouts" pc="268436002" symbol="WatchFace"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="5" lineNum="26" parent="globals/TimeManager" pc="268435525" symbol="drawTime"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="5" lineNum="27" parent="globals/TimeManager" pc="268435528" symbol="drawTime"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="5" lineNum="28" parent="globals/TimeManager" pc="268435536" symbol="drawTime"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="5" lineNum="31" parent="globals/TimeManager" pc="268435562" symbol="drawTime"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="5" lineNum="32" parent="globals/TimeManager" pc="268435568" symbol="drawTime"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="5" lineNum="33" parent="globals/TimeManager" pc="268435581" symbol="drawTime"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="5" lineNum="34" parent="globals/TimeManager" pc="268435595" symbol="drawTime"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="5" lineNum="36" parent="globals/TimeManager" pc="268435613" symbol="drawTime"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="6" lineNum="9" parent="globals/TimeManager" pc="268435632" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="6" lineNum="13" parent="globals/TimeManager" pc="268435634" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="6" lineNum="14" parent="globals/TimeManager" pc="268435643" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="7" lineNum="17" parent="globals/TimeManager" pc="268435653" symbol="&lt;globals/TimeManager/&lt;&gt;getTimeString&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="7" lineNum="18" parent="globals/TimeManager" pc="268435656" symbol="&lt;globals/TimeManager/&lt;&gt;getTimeString&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="7" lineNum="19" parent="globals/TimeManager" pc="268435668" symbol="&lt;globals/TimeManager/&lt;&gt;getTimeString&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="7" lineNum="20" parent="globals/TimeManager" pc="268435676" symbol="&lt;globals/TimeManager/&lt;&gt;getTimeString&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="7" lineNum="21" parent="globals/TimeManager" pc="268435684" symbol="&lt;globals/TimeManager/&lt;&gt;getTimeString&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/managers/TimeManager.mc" id="7" lineNum="23" parent="globals/TimeManager" pc="268435694" symbol="&lt;globals/TimeManager/&lt;&gt;getTimeString&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="10" lineNum="25" parent="globals/garminWatchFaceView" pc="268435743" symbol="onLayout"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="10" lineNum="26" parent="globals/garminWatchFaceView" pc="268435745" symbol="onLayout"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="11" lineNum="68" parent="globals/garminWatchFaceView" pc="268435779" symbol="getWatchView"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="11" lineNum="69" parent="globals/garminWatchFaceView" pc="268435781" symbol="getWatchView"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="12" lineNum="46" parent="globals/garminWatchFaceView" pc="268435783" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="12" lineNum="47" parent="globals/garminWatchFaceView" pc="268435785" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="13" lineNum="53" parent="globals/garminWatchFaceView" pc="268435812" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;getHeartRateString&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="13" lineNum="54" parent="globals/garminWatchFaceView" pc="268435814" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;getHeartRateString&gt;"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="15" lineNum="41" parent="globals/garminWatchFaceView" pc="268435834" symbol="drawHeartRateLabel"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="15" lineNum="42" parent="globals/garminWatchFaceView" pc="268435836" symbol="drawHeartRateLabel"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="16" lineNum="13" parent="globals/garminWatchFaceView" pc="268435874" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="16" lineNum="15" parent="globals/garminWatchFaceView" pc="268435877" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="16" lineNum="16" parent="globals/garminWatchFaceView" pc="268435889" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="16" lineNum="18" parent="globals/garminWatchFaceView" pc="268435922" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="16" lineNum="20" parent="globals/garminWatchFaceView" pc="268435931" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="16" lineNum="21" parent="globals/garminWatchFaceView" pc="268435963" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="18" lineNum="35" parent="globals/garminWatchFaceView" pc="268435981" symbol="onUpdate"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="18" lineNum="36" parent="globals/garminWatchFaceView" pc="268435983" symbol="onUpdate"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="18" lineNum="37" parent="globals/garminWatchFaceView" pc="268436003" symbol="onUpdate"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceView.mc" id="18" lineNum="38" parent="globals/garminWatchFaceView" pc="268436019" symbol="onUpdate"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="19" lineNum="11" parent="globals/garminWatchFaceApp" pc="268436031" symbol="onStart"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="20" lineNum="17" parent="globals/garminWatchFaceApp" pc="268436034" symbol="getInitialView"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="20" lineNum="18" parent="globals/garminWatchFaceApp" pc="268436036" symbol="getInitialView"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="21" lineNum="6" parent="globals/garminWatchFaceApp" pc="268436066" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="21" lineNum="7" parent="globals/garminWatchFaceApp" pc="268436068" symbol="initialize"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/optimized/group000-debug/source/source/garminWatchFaceApp.mc" id="22" lineNum="14" parent="globals/garminWatchFaceApp" pc="268436081" symbol="onStop"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/gen/006-B4257-00/source/Rez.mcgen" id="23" lineNum="19" parent="globals/Rez/Layouts" pc="268436084" symbol="WatchFace"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/gen/006-B4257-00/source/Rez.mcgen" id="23" lineNum="20" parent="globals/Rez/Layouts" pc="268436095" symbol="WatchFace"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/gen/006-B4257-00/source/Rez.mcgen" id="23" lineNum="22" parent="globals/Rez/Layouts" pc="268436189" symbol="WatchFace"/>
+        <entry filename="/Users/gregoryfoo/dev/garminWatchFace/garminWatchFace/bin/gen/006-B4257-00/source/Rez.mcgen" id="23" lineNum="24" parent="globals/Rez/Layouts" pc="268436278" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="8" object="true" symbol="garminWatchFaceView"/>
-        <entry field="true" id="10" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;dateFont&gt;"/>
+        <entry id="10" object="true" symbol="garminWatchFaceView"/>
+        <entry id="8" object="true" symbol="TimeManager"/>
+        <entry field="true" id="20" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;timeManager&gt;"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="14" symbol="&lt;globals/TimeManager/&lt;statics&gt;/&lt;&gt;timeFont&gt;"/>
         <entry id="11" method="true" symbol="drawTime"/>
-        <entry field="true" id="18" symbol="AppName"/>
+        <entry field="true" id="26" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
@@ -53,24 +74,29 @@
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="7" module="true" symbol="globals/TimeManager/&lt;statics&gt;"/>
+        <entry field="true" id="23" symbol="StepsIcon"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry field="true" id="17" symbol="TimeFont"/>
+        <entry field="true" id="25" symbol="TimeFont"/>
+        <entry id="15" method="true" symbol="drawHeartRateLabel"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
+        <entry id="12" method="true" symbol="&lt;globals/TimeManager/&lt;&gt;getTimeString&gt;"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="7" object="true" symbol="garminWatchFaceApp"/>
-        <entry field="true" id="12" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;heartIcon&gt;"/>
+        <entry id="9" object="true" symbol="garminWatchFaceApp"/>
+        <entry id="18" method="true" symbol="getWatchView"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
         <entry id="8388644" module="true" symbol="System"/>
+        <entry id="17" method="true" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;getHeartRateString&gt;"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="13" symbol="&lt;globals/TimeManager/&lt;&gt;watchFaceView&gt;"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="13" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;stepsIcon&gt;"/>
-        <entry field="true" id="16" symbol="LauncherIcon"/>
+        <entry field="true" id="22" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
@@ -80,39 +106,57 @@
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="15" module="true" symbol="Layouts"/>
+        <entry id="21" module="true" symbol="Layouts"/>
+        <entry field="true" id="24" symbol="DataFont"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
-        <entry field="true" id="14" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry field="true" id="19" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;timeFont&gt;"/>
         <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="16" method="true" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;getHeartRate&gt;"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="9" symbol="&lt;globals/garminWatchFaceView/&lt;&gt;dataFont&gt;"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435560" name="dc" stackId="1" startPc="268435525"/>
-        <entry arg="true" endPc="268435745" name="dc" stackId="1" startPc="268435561"/>
-        <entry endPc="268435744" name="view" stackId="2" startPc="268435564"/>
-        <entry arg="true" endPc="268435832" name="dc" stackId="1" startPc="268435799"/>
-        <entry arg="true" endPc="268436011" name="dc" stackId="1" startPc="268435886"/>
-        <entry endPc="268436011" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268435897"/>
+        <entry arg="true" endPc="268435631" name="dc" stackId="1" startPc="268435525"/>
+        <entry endPc="268435630" name="view" stackId="2" startPc="268435528"/>
+        <entry arg="true" endPc="268435652" name="timeFontResource" stackId="1" startPc="268435632"/>
+        <entry arg="true" endPc="268435652" name="watchFaceViewInstance" stackId="2" startPc="268435632"/>
+        <entry endPc="268435742" name="clockTime" stackId="1" startPc="268435656"/>
+        <entry endPc="268435742" name="hour" stackId="2" startPc="268435656"/>
+        <entry arg="true" endPc="268435778" name="dc" stackId="1" startPc="268435743"/>
+        <entry arg="true" endPc="268435873" name="dc" stackId="1" startPc="268435834"/>
+        <entry endPc="268435979" name="pre_timeFont" stackId="1" startPc="268435877"/>
+        <entry arg="true" endPc="268436030" name="dc" stackId="1" startPc="268435981"/>
+        <entry arg="true" endPc="268436292" name="dc" stackId="1" startPc="268436084"/>
+        <entry endPc="268436292" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268436095"/>
+        <entry endPc="268436292" name="rez_cmp_local_text_HeartRateLabel" stackId="3" startPc="268436095"/>
     </localVars>
     <deviceInfo deviceVersion="4866e5192c0c99025597cd8e6e841f3d774b64f7" partNumber="006-B4257-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="TimeFont"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="StepsIcon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="DataFont"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/garminWatchFaceView" offset="134" parentId="globals" symbolId="garminWatchFaceView" type="class"/>
-        <dataEntry label="globals/Rez" offset="286" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/garminWatchFaceApp" offset="348" parentId="globals" symbolId="garminWatchFaceApp" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="419" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="454" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="489" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="524" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals" offset="76" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/TimeManager" offset="152" parentId="globals" symbolId="TimeManager" type="class"/>
+        <dataEntry label="globals/TimeManager/&lt;statics&gt;" offset="227" parentId="TimeManager" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/garminWatchFaceView" offset="258" parentId="globals" symbolId="garminWatchFaceView" type="class"/>
+        <dataEntry label="globals/Rez" offset="410" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/garminWatchFaceApp" offset="472" parentId="globals" symbolId="garminWatchFaceApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="543" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="587" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="622" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="666" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="TimeManager">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/TimeManager">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435492" name="&lt;init&gt;" parent="garminWatchFaceView" startPc="268435481">
@@ -124,30 +168,51 @@
         <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="garminWatchFaceApp" startPc="268435513">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" endPc="268435631" name="drawTime" parent="TimeManager" startPc="268435525">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435652" name="initialize" parent="TimeManager" startPc="268435632">
+            <param id="timeFontResource"/>
+            <param id="watchFaceViewInstance"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435742" name="&lt;globals/TimeManager/&lt;&gt;getTimeString&gt;" parent="TimeManager" startPc="268435653">
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="onExitSleep" parent="garminWatchFaceView">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="garminWatchFaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435560" name="onLayout" parent="garminWatchFaceView" startPc="268435525">
+        <functionEntry accessMode="public" endPc="268435778" name="onLayout" parent="garminWatchFaceView" startPc="268435743">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435745" name="drawTime" parent="garminWatchFaceView" startPc="268435561">
-            <param id="dc"/>
+        <functionEntry accessMode="public" endPc="268435782" name="getWatchView" parent="garminWatchFaceView" startPc="268435779">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435811" name="&lt;globals/garminWatchFaceView/&lt;&gt;getHeartRate&gt;" parent="garminWatchFaceView" startPc="268435783">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435833" name="&lt;globals/garminWatchFaceView/&lt;&gt;getHeartRateString&gt;" parent="garminWatchFaceView" startPc="268435812">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onEnterSleep" parent="garminWatchFaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435798" name="initialize" parent="garminWatchFaceView" startPc="268435746">
+        <functionEntry accessMode="public" endPc="268435873" name="drawHeartRateLabel" parent="garminWatchFaceView" startPc="268435834">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435980" name="initialize" parent="garminWatchFaceView" startPc="268435874">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="garminWatchFaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435832" name="onUpdate" parent="garminWatchFaceView" startPc="268435799">
+        <functionEntry accessMode="public" endPc="268436030" name="onUpdate" parent="garminWatchFaceView" startPc="268435981">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -163,21 +228,21 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435835" name="onStart" parent="garminWatchFaceApp" startPc="268435833">
+        <functionEntry accessMode="public" endPc="268436033" name="onStart" parent="garminWatchFaceApp" startPc="268436031">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435867" name="getInitialView" parent="garminWatchFaceApp" startPc="268435836">
+        <functionEntry accessMode="public" endPc="268436065" name="getInitialView" parent="garminWatchFaceApp" startPc="268436034">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435882" name="initialize" parent="garminWatchFaceApp" startPc="268435868">
+        <functionEntry accessMode="public" endPc="268436080" name="initialize" parent="garminWatchFaceApp" startPc="268436066">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435885" name="onStop" parent="garminWatchFaceApp" startPc="268435883">
+        <functionEntry accessMode="public" endPc="268436083" name="onStop" parent="garminWatchFaceApp" startPc="268436081">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436011" name="WatchFace" parent="Layouts" startPc="268435886">
+        <functionEntry accessMode="public" endPc="268436292" name="WatchFace" parent="Layouts" startPc="268436084">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

@@ -4,15 +4,15 @@ import Toybox.System;
 import Toybox.WatchUi;
 
 class garminWatchFaceView extends WatchUi.WatchFace {
-  private var timeFont;
-  private var dataFont;
-  private var dateFont;
-  private var stepsIcon;
-  private var heartIcon;
+  private var timeFont as FontResource;
+  private var timeManager as TimeManager;
 
   function initialize() {
     WatchFace.initialize();
     timeFont = Application.loadResource(Rez.Fonts.TimeFont);
+
+    timeManager = new TimeManager(timeFont, self);
+    timeManager.initialize(timeFont, self);
   }
 
   // Load your resources here
@@ -27,30 +27,22 @@ class garminWatchFaceView extends WatchUi.WatchFace {
 
   // Update the view
   function onUpdate(dc as Dc) as Void {
-    drawTime(dc);
     View.onUpdate(dc);
+    timeManager.drawTime(dc);
+    drawHeartRateLabel(dc);
   }
 
-  function drawTime(dc as Dc) as Void {
-    var clockTime = System.getClockTime();
-    var hour = clockTime.hour;
-    if (hour > 12) {
-      hour -= 12;
-    }
-    var timeString = Lang.format("$1$:$2$", [
-      hour,
-      clockTime.min.format("%02d"),
-    ]);
+  function drawHeartRateLabel(dc as Dc) as Void {
+    var heartRateLabel = View.findDrawableById("HeartRateLabel") as Text;
+    heartRateLabel.setText(getHeartRateString());
+  }
+  private function getHeartRate() as Number {
+    var heartrateIterator = Toybox.ActivityMonitor.getHeartRateHistory(1, true);
+    return heartrateIterator.next().heartRate;
+  }
 
-    var view = View.findDrawableById("TimeLabel") as Text;
-
-    if (view != null) {
-      view.setText(timeString);
-      view.setBackgroundColor(Graphics.COLOR_DK_BLUE);
-      view.setColor(Graphics.COLOR_GREEN);
-    } else {
-      System.println("Error: TimeLabel view not found!");
-    }
+  private function getHeartRateString() as String {
+    return getHeartRate().format("%d");
   }
 
   // Called when this View is removed from the screen. Save the
@@ -63,4 +55,8 @@ class garminWatchFaceView extends WatchUi.WatchFace {
 
   // Terminate any active timers and prepare for slow updates.
   function onEnterSleep() as Void {}
+
+  public function getWatchView() as Toybox.WatchUi.View {
+    return self;
+  }
 }

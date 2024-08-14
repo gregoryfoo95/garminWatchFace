@@ -1,6 +1,7 @@
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.Graphics;
 
 class TimeManager { 
     private static var timeFont as FontResource;
@@ -23,16 +24,32 @@ class TimeManager {
         ]);
     }
 
-    public function drawTime(dc as Toybox.Graphics.Dc) as Void {
+     // Method to draw the time on the screen
+    public function drawTime(dc as Dc) as Void {
         var timeString = getTimeString();
-        var view = watchFaceView.getWatchView().findDrawableById("TimeLabel") as Text;
+        var timeLabel = getTimeLabel("TimeLabel");
 
-        if (view != null) {
-            view.setText(timeString);
-            view.setBackgroundColor(Graphics.COLOR_DK_BLUE);
-            view.setColor(Graphics.COLOR_GREEN);
+        if (watchFaceView != null) {
+            updateView(timeLabel, timeString);
         } else {
-            System.println("Error: TimeLabel view not found!");
+            handleError("TimeLabel view not found!");
         }
+    }
+
+    // Encapsulate timeLabel retrieval
+    private function getTimeLabel(labelId as String) as WatchUi.Text {
+        return watchFaceView.getWatchView().findDrawableById(labelId) as WatchUi.Text;
+    }
+
+    // Update the view with the time string and styles
+    private function updateView(view as WatchUi.Text, timeString as String) as Void {
+        view.setText(timeString);
+        view.setBackgroundColor(Graphics.COLOR_DK_BLUE);
+        view.setColor(Graphics.COLOR_GREEN);
+    }
+
+    // Handle errors gracefully
+    private function handleError(message as String) as Void {
+        System.println("Error: " + message);
     }
 }

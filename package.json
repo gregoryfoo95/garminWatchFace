@@ -1,0 +1,16 @@
+{
+  "name": "garminwatchface",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@markw65/prettier-plugin-monkeyc": "^1.0.59",
+    "prettier": "^3.3.3"
+  }
+}
